@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import Color from './Colors.json';
 import Data from './Quotes.json';
+
 export const QuoteBox = () => {
     const [indexQuote, setIndexQuote] = useState(Math.floor(Math.random() * 102))
     const [indexColor, setIndexColor] = useState(Math.floor(Math.random() * 20))
